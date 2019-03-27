@@ -1,0 +1,3 @@
+ls -a -l
+gcc -Wall consumer.c -o consumer
+./consumer mem

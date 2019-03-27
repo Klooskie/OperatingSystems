@@ -1,0 +1,19 @@
+10
+10
+10
+input
+2
+<
+reportall
+0
+
+
+// Format danych:
+1 - Liczba producentow
+2 - Liczba konsumentow
+3 - Rozmiar tablicy strignow
+4 - Nazwa pliku do czytania
+5 - Wzorzec dlugosci linii
+6 - Atrybut linii do wypisywania - </=/>
+7 - Tryb wypisywania simple/reportall
+8 - Maksymalna długość trwania programu (s), 0 oznacza wykonywanie az do przeczytania calego pliku do czytania

@@ -1,0 +1,94 @@
+//Kazda z metod dolaczania bibliotek do pliku daje bardzo podobne efekty, jesli chodzi o szybkosc wykonywania funkcji z tych bibliotek
+
+Kompilacja i uruchomienie z wykorzystaniem bibliotek statycznych
+
+statyczna alokacja pamieci:
+-tworzenie tablicy, statyczna alokacja
+real: 0.000421   sys: 0.000000   usr: 0.000418
+-dodawanie 10000 blokow, statyczna alokacja
+real: 0.008918   sys: 0.000000   usr: 0.008912
+-wyszukiwanie bloku o zblizonej sumie znakow, statyczna alokacja
+real: 0.000004   sys: 0.000000   usr: 0.000003
+-usuwanie 200 blokow, statyczna alokacja
+real: 0.000076   sys: 0.000000   usr: 0.000074
+-dodawanie 200 blokow, statyczna alokacja
+real: 0.000120   sys: 0.000000   usr: 0.000118
+-usuwanie i dodawanie na zmiane 200 blokow, statyczna alokacja
+real: 0.000238   sys: 0.000000   usr: 0.000233
+
+dynamiczna alokacja pamieci
+-tworzenie tablicy, dynamiczna alokacja
+real: 0.000008   sys: 0.000006   usr: 0.000000
+-dodawanie 10000 blokow, dynamiczna alokacja
+real: 0.010180   sys: 0.002675   usr: 0.007501
+-wyszukiwanie bloku o zblizonej sumie znakow, dynamiczna alokacja
+real: 0.000002   sys: 0.000000   usr: 0.000001
+-usuwanie 200 blokow, dynamiczna alokacja
+real: 0.000008   sys: 0.000003   usr: 0.000005
+-dodawanie 200 blokow, dynamiczna alokacja
+real: 0.000186   sys: 0.000062   usr: 0.000124
+-usuwanie i dodawanie na zmiane 200 blokow, dynamiczna alokacja
+real: 0.000191   sys: 0.000063   usr: 0.000126
+
+
+Kompilacja i uruchomienie z wykorzystaniem bibliotek dzielonych
+
+statyczna alokacja pamieci:
+-tworzenie tablicy, statyczna alokacja
+real: 0.000386   sys: 0.000000   usr: 0.000382
+-dodawanie 10000 blokow, statyczna alokacja
+real: 0.005680   sys: 0.000000   usr: 0.005675
+-wyszukiwanie bloku o zblizonej sumie znakow, statyczna alokacja
+real: 0.000006   sys: 0.000000   usr: 0.000005
+-usuwanie 200 blokow, statyczna alokacja
+real: 0.000075   sys: 0.000000   usr: 0.000073
+-dodawanie 200 blokow, statyczna alokacja
+real: 0.000115   sys: 0.000000   usr: 0.000115
+-usuwanie i dodawanie na zmiane 200 blokow, statyczna alokacja
+real: 0.000211   sys: 0.000000   usr: 0.000207
+
+dynamiczna alokacja pamieci
+-tworzenie tablicy, dynamiczna alokacja
+real: 0.000007   sys: 0.000000   usr: 0.000005
+-dodawanie 10000 blokow, dynamiczna alokacja
+real: 0.011615   sys: 0.000000   usr: 0.011611
+-wyszukiwanie bloku o zblizonej sumie znakow, dynamiczna alokacja
+real: 0.000003   sys: 0.000000   usr: 0.000001
+-usuwanie 200 blokow, dynamiczna alokacja
+real: 0.000010   sys: 0.000000   usr: 0.000010
+-dodawanie 200 blokow, dynamiczna alokacja
+real: 0.000189   sys: 0.000000   usr: 0.000187
+-usuwanie i dodawanie na zmiane 200 blokow, dynamiczna alokacja
+real: 0.000191   sys: 0.000000   usr: 0.000189
+
+
+Kompilacja i uruchomienie z wykorzystaniem bibliotek ladowanych dynamicznie
+
+statyczna alokacja pamieci:
+-tworzenie tablicy, statyczna alokacja
+real: 0.001328   sys: 0.000000   usr: 0.001316
+-dodawanie 10000 blokow, statyczna alokacja
+real: 0.006191   sys: 0.000000   usr: 0.006189
+-wyszukiwanie bloku o zblizonej sumie znakow, statyczna alokacja
+real: 0.000007   sys: 0.000000   usr: 0.000006
+-usuwanie 200 blokow, statyczna alokacja
+real: 0.000074   sys: 0.000000   usr: 0.000074
+-dodawanie 200 blokow, statyczna alokacja
+real: 0.000115   sys: 0.000000   usr: 0.000115
+-usuwanie i dodawanie na zmiane 200 blokow, statyczna alokacja
+real: 0.000185   sys: 0.000000   usr: 0.000185
+
+dynamiczna alokacja pamieci
+-tworzenie tablicy, dynamiczna alokacja
+real: 0.000006   sys: 0.000000   usr: 0.000004
+-dodawanie 10000 blokow, dynamiczna alokacja
+real: 0.011952   sys: 0.000000   usr: 0.011946
+-wyszukiwanie bloku o zblizonej sumie znakow, dynamiczna alokacja
+real: 0.000004   sys: 0.000000   usr: 0.000003
+-usuwanie 200 blokow, dynamiczna alokacja
+real: 0.000022   sys: 0.000018   usr: 0.000000
+-dodawanie 200 blokow, dynamiczna alokacja
+real: 0.000274   sys: 0.000272   usr: 0.000000
+-usuwanie i dodawanie na zmiane 200 blokow, dynamiczna alokacja
+real: 0.000275   sys: 0.000273   usr: 0.000000
+

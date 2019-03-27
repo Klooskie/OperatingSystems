@@ -1,0 +1,123 @@
+// W przypadku malych rekordow kopiowanie jest szybsze przy uzyciu funkcji bibliotecznych
+// bo te w przypadku otwarcia pliku tylko do odczytu przechowuja w pamieci podrecznej wiecej, niz rozmiar bufora
+// podczas gdy funkcjie systemowe przechowuja dokladnie tyle ile do bufora zaladujemy.
+// 
+// Sortowanie w kazdym przypadku jest nieznacznie szybsze za pomoca funkcji systemowych
+// poniewaz tym razem otwieramy plik w trybie do zapisu i odczytu, wiec nie jest buforowane wiecej niz podany rozmiar bufora
+//
+// Uwaga wygenerowane pliki zajmuja ponad 60GB
+
+Testy dla rekordow rozmiaru 4 byte'ow
+
+Generowanie pliku "testFile4" o 10000000 rekordach rozmiaru 4 byte'ow z uzyciem funkcji systemowych
+ real:	18.937194
+ sys:	17.481692
+ usr:	1.455501
+
+Kopiowanie 10000000 rekordow o rozmiarze 4 byte'ow z pliku testFile4 do pliku copiedFileSys4 z uzyciem funkcji SYSTEMOWYCH
+ real:	29.692364
+ sys:	26.930127
+ usr:	2.762236
+
+Kopiowanie 10000000 rekordow o rozmiarze 4 byte'ow z pliku testFile4 do pliku copiedFileLib4 z uzyciem funkcji BIBLIOTECZNYCH
+ real:	0.644031
+ sys:	0.110915
+ usr:	0.533113
+
+Sortowanie pliku "copiedFileSys4" o 5000 rekordach rozmiaru 4 byte'ow z uzyciem funkcji SYSTEMOWYCH
+ real:	19.514546
+ sys:	16.202383
+ usr:	3.312161
+
+Sortowanie pliku "copiedFileLib4" o 5000 rekordach rozmiaru 4 byte'ow z uzyciem funkcji BIBLIOTECZNYCH
+ real:	22.086866
+ sys:	17.651342
+ usr:	4.435524
+
+
+
+Testy dla rekordow rozmiaru 512 byte'ow
+
+Generowanie pliku "testFile512" o 5000000 rekordach rozmiaru 512 byte'ow z uzyciem funkcji systemowych
+ real:	38.055567
+ sys:	11.361154
+ usr:	26.694411
+
+Kopiowanie 5000000 rekordow o rozmiarze 512 byte'ow z pliku testFile512 do pliku copiedFileSys512 z uzyciem funkcji SYSTEMOWYCH
+ real:	15.390805
+ sys:	14.139178
+ usr:	1.251628
+
+Kopiowanie 5000000 rekordow o rozmiarze 512 byte'ow z pliku testFile512 do pliku copiedFileLib512 z uzyciem funkcji BIBLIOTECZNYCH
+ real:	4.275310
+ sys:	3.592825
+ usr:	0.682486
+
+Sortowanie pliku "copiedFileSys512" o 5000 rekordach rozmiaru 512 byte'ow z uzyciem funkcji SYSTEMOWYCH
+ real:	15.063186
+ sys:	12.655258
+ usr:	2.407925
+
+Sortowanie pliku "copiedFileLib512" o 5000 rekordach rozmiaru 512 byte'ow z uzyciem funkcji BIBLIOTECZNYCH
+ real:	20.268886
+ sys:	16.208912
+ usr:	4.059973
+
+
+
+Testy dla rekordow rozmiaru 4096 byte'ow
+
+Generowanie pliku "testFile4096" o 3000000 rekordach rozmiaru 4096 byte'ow z uzyciem funkcji systemowych
+ real:	171.393345
+ sys:	15.429627
+ usr:	155.963716
+
+Kopiowanie 3000000 rekordow o rozmiarze 4096 byte'ow z pliku testFile4096 do pliku copiedFileSys4096 z uzyciem funkcji SYSTEMOWYCH
+ real:	19.820221
+ sys:	18.900728
+ usr:	0.919491
+
+Kopiowanie 3000000 rekordow o rozmiarze 4096 byte'ow z pliku testFile4096 do pliku copiedFileLib4096 z uzyciem funkcji BIBLIOTECZNYCH
+ real:	19.730080
+ sys:	18.364879
+ usr:	1.365196
+
+Sortowanie pliku "copiedFileSys4096" o 5000 rekordach rozmiaru 4096 byte'ow z uzyciem funkcji SYSTEMOWYCH
+ real:	18.118054
+ sys:	15.670654
+ usr:	2.447400
+
+Sortowanie pliku "copiedFileLib4096" o 5000 rekordach rozmiaru 4096 byte'ow z uzyciem funkcji BIBLIOTECZNYCH
+ real:	18.883673
+ sys:	15.884565
+ usr:	2.999106
+
+
+
+Testy dla rekordow rozmiaru 8192 byte'ow
+
+Generowanie pliku "testFile8192" o 1000000 rekordach rozmiaru 8192 byte'ow z uzyciem funkcji systemowych
+ real:	109.504710
+ sys:	8.320073
+ usr:	101.184638
+
+Kopiowanie 1000000 rekordow o rozmiarze 8192 byte'ow z pliku testFile8192 do pliku copiedFileSys8192 z uzyciem funkcji SYSTEMOWYCH
+ real:	12.198928
+ sys:	11.906307
+ usr:	0.292617
+
+Kopiowanie 1000000 rekordow o rozmiarze 8192 byte'ow z pliku testFile8192 do pliku copiedFileLib8192 z uzyciem funkcji BIBLIOTECZNYCH
+ real:	13.169271
+ sys:	12.334428
+ usr:	0.834844
+
+Sortowanie pliku "copiedFileSys8192" o 5000 rekordach rozmiaru 8192 byte'ow z uzyciem funkcji SYSTEMOWYCH
+ real:	28.428349
+ sys:	25.623466
+ usr:	2.804880
+
+Sortowanie pliku "copiedFileLib8192" o 5000 rekordach rozmiaru 8192 byte'ow z uzyciem funkcji BIBLIOTECZNYCH
+ real:	30.807294
+ sys:	27.031832
+ usr:	3.775462
+

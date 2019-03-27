@@ -1,0 +1,6 @@
+cat main.c | head -20 | cat | tail -5 | cat | cat
+
+
+cat /etc/passwd | head -9 | tail -5 | cut -d : -f 3 | sort -r
+
+ls -al | cat | cat | cat |cat | cat

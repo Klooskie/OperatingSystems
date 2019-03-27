@@ -1,0 +1,7 @@
+ls -al | cat | cat | cat | cat | cat | cat | cat | cat | cat
+ls -al | cat | cat | cat | cat | cat | cat | cat | cat 
+ls -al | cat | cat | cat | cat | cat | cat | cat | cat 
+ls -al | cat | cat | cat | cat | cat | cat | cat | cat 
+ls -al | cat | cat | cat | cat | cat | cat | cat | cat 
+ls -al | cat | cat | cat | cat | cat | cat | cat | cat 
+ls -l | grep main | grep .c | wc -l

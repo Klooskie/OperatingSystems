@@ -1,0 +1,26 @@
+Pomiary czasow operacji filtrowania obrazu dla roznych ilosci watkow i roznych filtrow
+
+Filtr pierwszy, 30 na 30
+
+liczba watkow: 1, czas: 2.675859
+liczba watkow: 2, czas: 1.374092
+liczba watkow: 4, czas: 1.472976
+liczba watkow: 8, czas: 1.665357
+
+Filtr drugi, 40 na 40
+
+liczba watkow: 1, czas: 5.791399
+liczba watkow: 2, czas: 2.975011
+liczba watkow: 4, czas: 2.945830
+liczba watkow: 8, czas: 2.944893
+
+Filtr trzeci, 50 na 50
+
+liczba watkow: 1, czas: 8.952096
+liczba watkow: 2, czas: 4.543222
+liczba watkow: 4, czas: 4.589980
+liczba watkow: 8, czas: 4.593653
+Pomiary czasow operacji filtrowania obrazu dla roznych ilosci watkow i roznych filtrow
+
+Filtr pierwszy, 30 na 30
+

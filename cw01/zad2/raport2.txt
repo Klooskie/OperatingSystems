@@ -1,0 +1,42 @@
+
+statyczna alokacja pamieci:
+
+-tworzenie tablicy, statyczna alokacja
+real: 0.000381   sys: 0.000377   usr: 0.000000
+
+-dodawanie 10000 blokow, statyczna alokacja
+real: 0.005898   sys: 0.002185   usr: 0.003699
+
+-wyszukiwanie bloku o zblizonej sumie znakow, statyczna alokacja
+real: 0.000005   sys: 0.000002   usr: 0.000002
+
+-usuwanie 200 blokow, statyczna alokacja
+real: 0.000088   sys: 0.000043   usr: 0.000043
+
+-dodawanie 200 blokow, statyczna alokacja
+real: 0.000134   sys: 0.000067   usr: 0.000067
+
+-usuwanie i dodawanie na zmiane 200 blokow, statyczna alokacja
+real: 0.000200   sys: 0.000099   usr: 0.000099
+
+
+dynamiczna alokacja pamieci
+
+-tworzenie tablicy, dynamiczna alokacja
+real: 0.000010   sys: 0.000000   usr: 0.000007
+
+-dodawanie 10000 blokow, dynamiczna alokacja
+real: 0.014920   sys: 0.000000   usr: 0.014916
+
+-wyszukiwanie bloku o zblizonej sumie znakow, dynamiczna alokacja
+real: 0.000004   sys: 0.000000   usr: 0.000003
+
+-usuwanie 200 blokow, dynamiczna alokacja
+real: 0.000016   sys: 0.000000   usr: 0.000014
+
+-dodawanie 200 blokow, dynamiczna alokacja
+real: 0.000277   sys: 0.000000   usr: 0.000275
+
+-usuwanie i dodawanie na zmiane 200 blokow, dynamiczna alokacja
+real: 0.000292   sys: 0.000000   usr: 0.000290
+

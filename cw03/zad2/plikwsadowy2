@@ -1,0 +1,11 @@
+ls -a
+cat Makefile     
+gcc test.c -Wall -o xD    
+./xD
+ls -a -l -R -r
+rm -f xD
+ls -a    -l   
+make -C ../zad1
+./../zad1/vfork ../../.. mlodsze 3 04 2018
+make -C ../zad1 clean
+ls -al
